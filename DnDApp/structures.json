@@ -1,0 +1,208 @@
+{
+  "isLoged": "bool",
+  "characters": {
+    "IDcharacter1": {
+      "characterName": "string",
+      "level": "number",
+      "class": "string",
+      "paragonPath": "string",
+      "epicDestiny": "string",
+      "totalXP": "number",
+      "race": "string",
+      "size": "number",
+      "age": "number",
+      "gender": "string",
+      "height":"number",
+      "weight": "number",
+      "alignment":"string",
+      "deity":"string",
+      "adventuringCompany":"string",
+      "numberRPGA":"number",
+      "initiative": {
+        "total":"number",
+        "dex":"number",
+        "byHalfLevel":"number"
+      },
+      "abilityScores": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "strength": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "constitution": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "dexterity": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "intelligence": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "wisdom": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "charisma": {
+        "total": "number",
+        "abilMod": "number",
+        "modPlustHalfLevel": "number",
+        },
+      "defenses": {
+        "armorclass": {
+          "tenPlusHalfLevel": "number",
+          "ability": "number",
+          "class": "number",
+          "feat": "number",
+          "enhance": "number",
+          "misc": "number",
+          "misc": "number",
+        },
+        "fortitude": {
+          "tenPlusHalfLevel": "number",
+          "ability": "number",
+          "class": "number",
+          "feat": "number",
+          "enhance": "number",
+          "misc": "number",
+          "misc": "number",
+        },
+        "reflex": {
+          "tenPlusHalfLevel": "number",
+          "ability": "number",
+          "class": "number",
+          "feat": "number",
+          "enhance": "number",
+          "misc": "number",
+          "misc": "number",
+        },
+        "will": {
+          "tenPlusHalfLevel": "number",
+          "ability": "number",
+          "class": "number",
+          "feat": "number",
+          "enhance": "number",
+          "misc": "number",
+          "misc": "number",
+        },
+      },
+      "movement": {
+        "total": "number",
+        "base": "number",
+        "armor": "number",
+        "item": "number",
+        "misc": "number",
+      },
+      "senses": {
+        "passiveInsight": {
+          "total": "",
+          "base": "",
+          "skillBonus": "",
+        },
+        "passivePerception": {
+          "total": "",
+          "base": "",
+          "skillBonus": "",
+        },
+      },
+      "basicAttacks": {
+        "itemID1": {
+            "name": "",
+            "attack": "",
+            "vsDenfense": "",
+            "damageDice": "",
+            "bonusDamage": ""
+          },
+          "itemID2": {
+              "name": "",
+              "attack": "",
+              "vsDenfense": "",
+              "damageDice": "",
+              "bonusDamage": ""
+            },
+      },
+      "hitPoints": {
+        "maxHP": "number",
+        "bloodied": "number",
+        "surgeValue": "number",
+        "surgePerDay": "number",
+        "secondWindEncounter": {
+          "used": "bool",
+          "temporaryHitPoints": "number"
+        },
+        "deathSavingThrowFailures": {
+          "times": "number",
+          "savingThrowMods": "string",
+          "resistances": "string",
+          "currentConditionsAndEffects": ""
+        }
+      },
+      "actionPints": {
+        "milestones": "number",
+        "numberOfActionPoints": "",
+        "effectsByUseActionPoints": ""
+      },
+      "raceFeatures": {
+        "raceFeatureID1": {
+          "name": "",
+          "effect": ""
+        },
+        "raceFeatureID2": {
+          "name": "",
+          "effect": ""
+        }
+      },
+      "classPathDestinyFeatures": {
+        "classFeatureID1": {
+          "name": "",
+          "effect": ""
+        },
+        "classFeatureID2": {
+          "name": "",
+          "effect": ""
+        }
+      },
+      "feats": {
+        "featID1": {
+          "name": "",
+          "effect": ""
+        },
+        "featID2": {
+          "name": "",
+          "effect": ""
+        }
+      },
+      "languagesKnown": "list",
+      "powerIndex": {
+        "atWill": "list",
+        "encounter": "list",
+        "daily": "list",
+        "utility"
+      },
+      "coinsAndOtherWealth": {
+        "moneyOnHand": "",
+        "storedMoney": "",
+        "encumbrance": "",
+      },
+      "magicItemIndex": "list",
+      "ritualsAlchemy": "list",
+      "otherEquipment"
+    },
+  } ,
+  "services": {
+    "logger": "validUser",
+    "parties": "list",
+
+
+  }
+}
