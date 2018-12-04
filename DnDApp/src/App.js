@@ -1,13 +1,15 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { BackHandler } from 'react-native';
+import { NavigationActions } from 'react-navigation';
+import configureStore from './redux/store/store';
+import { AppNavigator } from './navigation/navigation';
+
+const { store, persistor } = configureStore();
+console.log(store);
+type Props = {};
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
